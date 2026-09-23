@@ -1,14 +1,14 @@
-import { Navbar } from './components/Navbar'
-import { Hero } from './components/Hero'
-import { TrustStrip } from './components/TrustStrip'
-import { Inventory } from './components/Inventory'
-import { PaymentCalculator } from './components/PaymentCalculator'
-import { TradeIn } from './components/TradeIn'
-import { HowBuyingWorks } from './components/HowBuyingWorks'
-import { ServiceDepartment } from './components/ServiceDepartment'
-import { Reviews } from './components/Reviews'
-import { FinalCTA } from './components/FinalCTA'
-import { Footer } from './components/Footer'
+import { Navbar } from './components/Navbar';
+import { Hero } from './components/Hero';
+import { TrustStrip } from './components/TrustStrip';
+import { Inventory } from './components/Inventory';
+import { PaymentCalculator } from './components/PaymentCalculator';
+import { TradeIn } from './components/TradeIn';
+import { HowBuyingWorks } from './components/HowBuyingWorks';
+import { ServiceDepartment } from './components/ServiceDepartment';
+import { Reviews } from './components/Reviews';
+import { FinalCTA } from './components/FinalCTA';
+import { Footer } from './components/Footer';
 
 export default function App() {
   return (
@@ -27,5 +27,5 @@ export default function App() {
       </main>
       <Footer />
     </div>
-  )
+  );
 }
